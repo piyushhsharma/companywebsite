@@ -4,13 +4,23 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
+    <meta name="description" content="Web site created using create-react-app" />
+    <meta name="author" content="Your Name or Company" />
+    <meta name="keywords" content="Home buying, Real estate, New homes, Property" />
+    <meta name="robots" content="index,follow" />
+    <meta name="google-site-verification" content="verification_code" />
+    <meta property="og:title" content="HBSales - New Home Buying Experience" />
+    <meta property="og:description" content="Find your dream home with our new home buying experience." />
+    <meta property="og:image" content="%PUBLIC_URL%/src/assets/Home.png" />
+    <meta property="og:url" content="https://www.hbsales.com" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="HBSales - New Home Buying Experience" />
+    <meta name="twitter:description" content="Find your dream home with our new home buying experience." />
+    <meta name="twitter:image" content="%PUBLIC_URL%/src/assets/Home.png" />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700&display=swap"
+      href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700|Open+Sans:300,400,600&display=swap"
     />
     <style>
       * {
@@ -19,21 +29,23 @@
       }
     </style>
     <title>HBSales - New home buying experience for you</title>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'GA_TRACKING_ID');
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run npm start or yarn start.
-      To create a production bundle, use npm run build or yarn build.
-    -->
+    <!-- Add any other script files below -->
   </body>
 </html>
-
-
